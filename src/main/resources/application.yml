@@ -1,0 +1,13 @@
+content-service:
+    listOfServers: http://localhost:8080
+
+server:
+  port: 8888
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+
+
