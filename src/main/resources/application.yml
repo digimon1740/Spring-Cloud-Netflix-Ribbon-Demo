@@ -1,8 +1,13 @@
+ribbon:
+  eureka:
+    enabled: false
+
 content-service:
-    listOfServers: http://localhost:8080
+  listOfServers: http://localhost:8080
 
 server:
   port: 8888
+  shutdown: graceful
 
 logging:
   level:
